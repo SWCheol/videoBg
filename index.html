@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동영상배경,해더고정</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/rwd.css">
+  <script src="https://kit.fontawesome.com/eaeb383721.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="js/main.js"></script>
+
+</head>
+<body>
+  <div id="header_wrap">
+    <header>
+      <h1 class="logo">
+        <a href="#">
+          <span class="logo01">HOTEL</span><span class="logo02">ILLUA</span>
+        </a>
+      </h1>
+      <nav class="menu_conatainer">
+        <ul id="menu">
+          <li><a href="#">ROOMS</a></li>
+          <li><a href="#">OFFERS</a></li>
+          <li><a href="#">DINING & BAR</a></li>
+          <li><a href="#">FACILITIES</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+      <div class="search_conatainer">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <div class="resevation_conatainer">
+        <a href="#">RESERVATION</a>
+      </div>
+      <a href="#" class="m_menuBtn">
+        <span class="m_menuBtn_line1"></span>
+        <span class="m_menuBtn_line2"></span>
+      </a>
+    </header>
+  </div>
+
+  <main>
+    <div class="main_full">
+      <section class="main_visual">
+        <video autoplay muted playsinline loop poster="media/main-visual-vid-poster-01-v2.jpg">
+          <source src="media/bg.mp4" type="video/mp4">
+          이 브라우저에서는 동영상 기능을 지원하지 않습니다.
+        </video>
+        <div class="main_text_container">
+          <p class="main_text">조용하고 프라이빗한 호텔</p>
+          <div class="main_text_resevation">
+            <a href="#">RESERVATION</a>
+          </div>
+        </div>
+      </section>
+      <section class="con1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper ex vitae nisi consectetur gravida. Curabitur ultrices vestibulum urna quis mollis. Vestibulum consequat nulla elit, ut sagittis sem facilisis sed. Maecenas id tristique ipsum. Vivamus nisl leo, pharetra et nibh nec, porttitor porta dolor. Aliquam nunc sem, semper quis lacinia sit amet, posuere eget odio. Sed euismod enim in nisl hendrerit, non consequat lectus mollis. Cras dictum lorem viverra, ullamcorper dolor vel, eleifend sem. Cras mattis varius semper. Cras ullamcorper orci lorem, a sollicitudin risus scelerisque eget.<br><br> Lorem ipsum dolor sit amet, consectetur  <a href="#">ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;  Aliquam sagittis nisl sodales consectetur commodo. Proin volutpat tortor augue, osuere cubilia </a>curae; Integer lorem leo, pulvinar vitae ornare eget, pretium a dolor.<br><br> Nullam porttitor, lorem nec vulputate porttitor, ex urna condimentum urna, a accumsan orci justo eget orci. Nullam id convallis tellus, ut elementum sapien. Morbi quis aliquam odio.<br> Aliquaat convallis velit mollis in. Phasellus venenatis malesuada odio a tincidunt. Nullam eu nisl sit amet nunc tincidunt interdum in in mauris.<br> Pellentesque erat augue, scelerisque a iaculis sit amet, sagittis adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p><br><br>
+        <img src="https://via.placeholder.com/550x150" alt=""><br><br>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;  Aliquam sagittis nisl sodales consectetur commodo. Proin volutpat tortor augue, osuere cubilia curae; Integer lorem leo, pulvinar vitae ornare eget, pretium a dolor.<br><br> Nullam porttitor, lorem nec vulputate porttitor, ex urna condimentum urna, a accumsan orci justo eget orci. Nullam id convallis tellus, ut elementum sapien.<br> Morbi quis aliquam odio. Aliquaat convallis velit mollis in. Phasellus venenatis malesuada odio a tincidunt. Nullam eu nisl sit amet nunc tincidunt interdum in in mauris. Pellentesque erat augue, scelerisque a iaculis sit amet, sagittis nec lorem.</p>
+      </section>
+      <section class="con2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper ex vitae nisi consectetur gravida. Curabitur ultrices vestibulum urna quis mollis. Vestibulum consequat nulla elit, ut sagittis sem facilisis sed. Maecenas id tristique ipsum. Vivamus nisl leo, pharetra et nibh nec, porttitor porta dolor.</p><br><br>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>sagittis sem</li>
+          <li>Maecenas id tristique</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>consectetur gravida</li>
+        </ul><br><br>
+        <p>Integer lorem leo, pulvinar vitae ornare eget, pretium a dolor. Nullam porttitor, lorem nec vulputate porttitor, ex urna condimentum urna, a accumsan orci justo eget orci.<br> Nullam id convallis tellus, ut elementum sapien. Morbi quis aliquam odio.Nulla a elit finibus, pellentesque purus et, gravida lectus. Donec accumsan augue eu viverra laoreet. Donec at pharetra ipsum. Pellentesque luctus non diam et rhoncus.<br> Quisque fringilla, dui vel tincidunt dapibus, orci dolor tempor neque, ac fringilla mi libero vel neque. Cras vel eleifend ex. Cras eget lectus a mauris ullamcorper porttitor. Proin at leo vel ex cursus vehicula. Aliquam vestibulum et sem vulputate consequat.</p>        
+      </section>
+    </div>
+  </main>
+</body>
+</html>
